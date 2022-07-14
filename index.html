@@ -1,0 +1,337 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тестовое</title>
+    <link href="html/css/style.css" rel="stylesheet" />
+    <script src="html/js/jquery.min.js"></script>
+    <script src="html/js/jquery.maskedinput.min.js"></script>
+    <script src="html/js/js.js" defer></script>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="main">
+        <div class="box box__border">
+          <div class="title">профиль и интересы</div>
+          <p>
+            Здесь вы можете изменять свой email и пароль, а также указать
+            дополнительные номера телефонов для использован ия вашей карты
+            и указать свои интересы
+          </p>
+          <div class="grid grid_three">
+            <div class="grid__item">
+              <label class="style__label style__percent"
+                >Email <span class="percent">+2%</span></label
+              >
+              <input class="style__input" type="email" value="ivan@mail.ru" />
+              <div class="state">
+                <div class="state__item state__save">сохранить</div>
+                <div class="state__item state__change">Изменить</div>
+              </div>
+            </div>
+            <div class="grid__item">
+              <label class="style__label">Пароль</label>
+              <input
+                class="style__input"
+                type="password"
+                value="ivan@mail.ru"
+              />
+              <div class="state">
+                <div class="state__item state__save">сохранить</div>
+                <div class="state__item state__change">Изменить</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box box__border">
+          <div class="title title__contacts">
+            дополнительные контактные телефоны
+          </div>
+          <p>
+            Вы можете добавить до двух дополнительных номеров телефона.<br />
+            Указанные номера могут быть использованы членами вашей семьи для
+            получения скидки, накопления баллов и покупок по вашей карте
+          </p>
+          <div class="grid grid_three">
+            <div class="grid__item">
+              <label class="style__label">Телефон 1</label>
+              <input class="style__input mask-phone" type="tel" />
+              <div class="state">
+                <div class="state__item state__save">сохранить</div>
+                <div class="state__item state__change">Изменить</div>
+              </div>
+            </div>
+            <div class="grid__item">
+              <label class="style__label">Телефон 2</label>
+              <input class="style__input mask-phone" type="tel" />
+              <div class="state">
+                <div class="state__item state__save">сохранить</div>
+                <div class="state__item state__change">Изменить</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="title">ПОДПИСКА НА УВЕЛИЧЕННУЮ СКИДКУ</div>
+          <p>
+            Вы можете выбрать один магазин для предоставления увеличенной
+            скидки. Выбор можно сделать не более 1 раза в месяц. По истечению
+            календарного месяца скидка будет обнулена автоматически
+          </p>
+          <div class="grid grid_two">
+            <div class="multi-select">
+              <div class="multi-select__head">Выберите магазин</div>
+              <div class="multi-select__body">
+                <div class="logo__checkbox">
+                  <input type="checkbox" id="ml-1" />
+                  <label for="ml-1"
+                    ><img src="html/images/logo-1.png" alt=""
+                  /></label>
+                </div>
+
+                <div class="logo__checkbox">
+                  <input type="checkbox" id="ml-2" />
+                  <label for="ml-2"
+                    ><img src="html/images/logo-2.png" alt=""
+                  /></label>
+                </div>
+
+                <div class="logo__checkbox">
+                  <input type="checkbox" id="ml-3" />
+                  <label for="ml-3"
+                    ><img src="html/images/logo-3.png" alt=""
+                  /></label>
+                </div>
+
+                <div class="logo__checkbox">
+                  <input type="checkbox" id="ml-4" />
+                  <label for="ml-4"
+                    ><img src="html/images/logo-4.png" alt=""
+                  /></label>
+                </div>
+
+                <div class="logo__checkbox">
+                  <input type="checkbox" id="ml-5" />
+                  <label for="ml-5"
+                    ><img src="html/images/logo-5.png" alt=""
+                  /></label>
+                </div>
+
+                <div class="logo__checkbox">
+                  <input type="checkbox" id="ml-6" />
+                  <label for="ml-6"
+                    ><img src="html/images/logo-6.png" alt=""
+                  /></label>
+                </div>
+
+                <div class="logo__checkbox">
+                  <input type="checkbox" id="ml-7" />
+                  <label for="ml-7"
+                    ><img src="html/images/logo-7.png" alt=""
+                  /></label>
+                </div>
+
+                <div class="logo__checkbox">
+                  <input type="checkbox" id="ml-8" />
+                  <label for="ml-8"
+                    ><img src="html/images/logo-8.png" alt=""
+                  /></label>
+                </div>
+
+                <div class="logo__checkbox">
+                  <input type="checkbox" id="ml-9" />
+                  <label for="ml-9"
+                    ><img src="html/images/logo-9.png" alt=""
+                  /></label>
+                </div>
+
+                <div class="logo__checkbox">
+                  <input type="checkbox" id="ml-10" />
+                  <label for="ml-10"
+                    ><img src="html/images/logo-10.png" alt=""
+                  /></label>
+                </div>
+
+                <div class="logo__checkbox">
+                  <input type="checkbox" id="ml-11" />
+                  <label for="ml-11"
+                    ><img src="html/images/logo-11.png" alt=""
+                  /></label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="title">ПОДПИСКА НА УВЕДОМЛЕНИЯ ОБ АКЦИЯХ</div>
+            <p>
+              Вы можете выбрать один или несколько магазинов, по которым вам
+              интересно получать предложения
+            </p>
+            <div class="grid grid_three">
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb-1" />
+                <label for="cb-1"
+                  ><img src="html/images/logo-1.png" alt=""
+                /></label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb-2" />
+                <label for="cb-2"
+                  ><img src="html/images/logo-2.png" alt=""
+                /></label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb-3" />
+                <label for="cb-3"
+                  ><img src="html/images/logo-3.png" alt=""
+                /></label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb-4" />
+                <label for="cb-4"
+                  ><img src="html/images/logo-4.png" alt=""
+                /></label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb-5" />
+                <label for="cb-5"
+                  ><img src="html/images/logo-5.png" alt=""
+                /></label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb-6" />
+                <label for="cb-6"
+                  ><img src="html/images/logo-6.png" alt=""
+                /></label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb-7" />
+                <label for="cb-7"
+                  ><img src="html/images/logo-7.png" alt=""
+                /></label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb-8" />
+                <label for="cb-8"
+                  ><img src="html/images/logo-8.png" alt=""
+                /></label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb-9" />
+                <label for="cb-9"
+                  ><img src="html/images/logo-9.png" alt=""
+                /></label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb-10" />
+                <label for="cb-10"
+                  ><img src="html/images/logo-10.png" alt=""
+                /></label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb-11" />
+                <label for="cb-11"
+                  ><img src="html/images/logo-11.png" alt=""
+                /></label>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="title">ЛЮБИМЫЙ БРЕНД</div>
+            <p>
+              Расскажите нам о своих любимых брендах, а мы учтем ваш выбор при
+              составлении индивидуальных предложений
+            </p>
+            <div class="grid grid_three">
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb1" />
+                <label for="cb1">CALVIN KLEIN JEANS</label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb2" />
+                <label for="cb2">CALVIN KLEIN JEANS</label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb3" />
+                <label for="cb3">CALVIN KLEIN JEANS</label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb4" />
+                <label for="cb4">UNITED COLORS OF BENETTON</label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb5" />
+                <label for="cb5">UNITED COLORS OF BENETTON</label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb6" />
+                <label for="cb6">UNITED COLORS OF BENETTON</label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb7" />
+                <label for="cb7">REIMA</label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb8" />
+                <label for="cb8">REIMA</label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb9" />
+                <label for="cb9">REIMA</label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb10" />
+                <label for="cb10">STRELLSON</label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb11" />
+                <label for="cb11">STRELLSON</label>
+              </div>
+
+              <div class="logo__checkbox">
+                <input type="checkbox" id="cb12" />
+                <label for="cb12">STRELLSON</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <p>ПОДПИШИТЕСЬ НА НАШИ НОВОСТИ</p>
+        <div class="social">
+          <a class="social__vk" href="#" title="вконтакте" target="_blank"></a>
+          <a class="social__tg" href="#" title="telegram" target="_blank"></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
