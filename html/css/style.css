@@ -479,6 +479,11 @@ ul {
   padding: 0 30px 0 70px;
   min-height: 64px;
 }
+@media screen and (max-width: 1023px) {
+  .logo__checkbox label {
+    justify-content: center;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .grid {
@@ -507,9 +512,6 @@ ul {
   }
   .multi-select {
     margin-bottom: 42px;
-  }
-  .logo__checkbox label {
-    justify-content: center;
   }
 }
 
