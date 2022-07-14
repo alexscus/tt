@@ -476,7 +476,7 @@ ul {
 
 .multi-select__body .logo__checkbox label {
   justify-content: right;
-  padding: 0 30px;
+  padding: 0 30px 0 70px;
   min-height: 64px;
 }
 
@@ -510,9 +510,6 @@ ul {
   }
   .logo__checkbox label {
     justify-content: center;
-  }
-  .multi-select__body .logo__checkbox label {
-    padding: 0 30px 0 70px;
   }
 }
 
